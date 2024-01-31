@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 class MobileProject extends StatelessWidget {
-  final Function ontab;
+  final VoidCallback ontap;
   final String image;
 
-  MobileProject({this.ontab, this.image});
+  MobileProject({required this.ontap, required this.image});
 
   @override
   Widget build(BuildContext context) {
     return Center(
       child: GestureDetector(
-        onTap: ontab,
+        onTap: ontap,
         child: Container(
           height: MediaQuery.of(context).size.height * 0.36,
           width: MediaQuery.of(context).size.width * 0.8,

@@ -75,29 +75,23 @@ class _WorkState extends State<Work> {
                             children: [
                               CircleAvatar(
                                 backgroundColor: Colors.pink,
-                                child: FaIcon(FontAwesomeIcons.laptopHouse,
-                                    color: Colors.white),
+                                child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(50),
+                                    child: Image.asset('images/codecoy.jpeg')),
                               ),
                               CircleAvatar(
                                 backgroundColor: Colors.red,
-                                child: FaIcon(FontAwesomeIcons.freeCodeCamp,
-                                    color: Colors.white),
+                                child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(50),
+                                    child: Image.asset('images/invictus.png')),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.brown,
-                                child: FaIcon(FontAwesomeIcons.laptopCode,
-                                    color: Colors.white),
+                                backgroundColor: Colors.blue,
+                                child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(50),
+                                    child: Image.asset('images/fantech.png')),
                               ),
-                              CircleAvatar(
-                                backgroundColor: Colors.deepOrange,
-                                child: FaIcon(FontAwesomeIcons.coffee,
-                                    color: Colors.white),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.deepPurple,
-                                child: FaIcon(FontAwesomeIcons.dev,
-                                    color: Colors.white),
-                              ),
+
                             ],
                           )),
                         )

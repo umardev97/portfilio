@@ -77,21 +77,21 @@ class About extends StatelessWidget {
                   children: [
                     CustomText(
                       text:
-                          "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
+                          "Hello there! I'm Umar, a skilled Mobile App Developer based in Pakistan, committed to crafting captivating digital experiences. Whether it's creating sleek applications or dynamic websites, I take pride in transforming ideas into compelling mobile experiences. My goal is to consistently deliver pixel-perfect, high-performance mobile apps that stand out. Let's turn your concepts into extraordinary mobile solutions!\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n\n",
+                          "I'm presently dedicated to earning my Bachelor's degree in Computer Science and Engineering, delving into the intricacies of technology. This academic journey is complemented by my involvement in diverse and impactful projects on a daily basis. This dual commitment not only enriches my theoretical understanding but also enables me to apply and refine my skills in practical, real-world scenarios. I'm excited about the prospect of bridging the gap between theory and application as I navigate through my studies and contribute actively to the dynamic field of technology\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Here are a few technologies I've been working with recently:\n\n",
+                          "Presenting a glimpse into some of the latest technologies I've been actively engaged with lately:\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       // fontWeight: FontWeight.w500,
@@ -170,7 +170,7 @@ class About extends StatelessWidget {
 }
 
 class CustomImageAnimation extends StatefulWidget {
-  CustomImageAnimation({Key key}) : super(key: key);
+  CustomImageAnimation({Key? key}) : super(key: key);
 
   @override
   _CustomImageAnimationState createState() => _CustomImageAnimationState();
@@ -193,7 +193,7 @@ class _CustomImageAnimationState extends State<CustomImageAnimation> {
 
   void _incrementExit(PointerEvent details) {
     setState(() {
-      customImageColor = Color(0xff61F9D5).withOpacity(0.5);
+      customImageColor = Color(0xff61F9D5).withOpacity(0.2);
       _exitCounter++;
     });
   }
@@ -221,7 +221,7 @@ class _CustomImageAnimationState extends State<CustomImageAnimation> {
             color: Colors.black54,
             child: Image(
               fit: BoxFit.cover,
-              image: AssetImage("images/pic1.jpeg"),
+              image: AssetImage("images/image.jpeg"),
             ),
           ),
           Container(

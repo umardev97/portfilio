@@ -9,36 +9,25 @@ class WorkBox extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         WorkCustomData(
-          title: "Sandip Institute Of Engineering & Management Nashik",
+          title: "Senior  Flutter + Dart Development",
           subTitle:
-              "I am currently pursuing Bachelor's Degree in Computer Science and Engineering \nat Savitribai Phule Pune University",
-          duration: "2016 - Present",
+              "Senior Flutter  Developer with expertise in BLE projects, offline apps, and much more. Proven track record in delivering robust solutions with a focus on innovation and seamless user experiences.",
+          duration: "Feb 2023 - Present",
         ),
         WorkCustomData(
-          title: "Flutter + Dart Development Winter Bootcamp",
+          title: "Senior  Flutter + Dart Development",
           subTitle:
-              "The Complete 2020 Flutter + Dart Winter Development Bootcamp at LCO Training Center,\nJaipur, Rajasthan (302017), Covering all the fundamental concepts for Flutter development",
-          duration: "Dec - 2019 to Feb - 2020",
+              "Seasoned Senior Developer specializing in Flutter and Dart, delivering robust and elegant solutions with a proven track record of successful projects and innovation",
+          duration: "Sep - 2022 to Feb - 2023",
         ),
         WorkCustomData(
           title:
-              "Freelancer - Flutter | Dart Mobile App Developer | UI - UX Designer",
+              "Internship - Flutter | Dart Mobile App Developer | UI - UX Designer",
           subTitle:
-              "Flutter Developer and experienced programmer with an extensive history of designing and coding \nsolutions. Skilled in Google’s Flutter/Dart, Firebase App and Web development on a global scale. If you \nare looking for someone that you can trust that will complete your app on time and on budget, then \nplease contact me. I have been developing software for 1+ years and take pride in everything I do.",
-          duration: "Oct - 2019 to Nov - 2020",
+              "Aspiring Flutter and Dart intern with a flair for UI/UX design, eager to contribute creativity and coding skills to your dynamic team.",
+          duration: "Jan - 2021 to Sep - 2022",
         ),
-        WorkCustomData(
-          title: "Mentor at Contributor's Hack, 2020",
-          subTitle:
-              "Working as a mentor in HakinCode organization for Flutter CodeAsylums application \n where I can utilize my skills and be an asset to the organization",
-          duration: "Sep 2020 - Oct 2020",
-        ),
-        WorkCustomData(
-          title: "Flutter Intern at Mind Sports League | Gurgaon In",
-          subTitle:
-              "Building world class Poker Learning platform. Poker Sports League is India’s first poker league is to sportify the game of poker through a unique, team based format",
-          duration: "Nov - 2020 Present",
-        ),
+
       ],
     );
   }

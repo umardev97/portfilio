@@ -1,5 +1,7 @@
 import 'package:url_launcher/url_launcher.dart';
 
+import '../utils/constatnts.dart';
+
 class Method {
 
   launchURL(String link) async {
@@ -12,7 +14,7 @@ class Method {
 }
 
  launchCaller() async {
-    const url = "tel:9595242507";   
+    String url = "tel:${AppKeys.cellNumber}";
     if (await canLaunch(url)) {
        await launch(url);
     } else {
@@ -21,8 +23,8 @@ class Method {
 }
 
 launchEmail() async {
-      if (await canLaunch("mailto:champ96k@gmail.com")) {
-        await launch("mailto:champ96k@gmail.com");
+      if (await canLaunch("mailto:${AppKeys.email}")) {
+        await launch("mailto:${AppKeys.email}");
       } else {
         throw 'Could not launch';
       }

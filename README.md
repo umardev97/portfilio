@@ -7,7 +7,7 @@ Software Developer Portfolio Template that helps you showcase your work and skil
 
 
 
-## To view a live demo,[Click Here](https://champ96k.github.io).
+[//]: # (## To view a live demo,[Click Here]&#40;https://champ96k.github.io&#41;.)
 
 
 

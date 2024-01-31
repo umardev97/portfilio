@@ -4,21 +4,22 @@ import 'package:potrtfolio/Widget/CustomText.dart';
 
 class FeatureProject extends StatelessWidget {
   final String imagePath;
-  final String projectTitle;
   final String projectDesc;
+  final String projectTitle;
   final String tech1;
   final String tech2;
   final String tech3;
-  final Function ontab;
+  final VoidCallback onTap;
+
 
   FeatureProject(
-      {this.imagePath,
-      this.ontab,
-      this.projectDesc,
-      this.projectTitle,
-      this.tech1,
-      this.tech2,
-      this.tech3});
+      {required this.imagePath,
+      required this.projectDesc,
+      required this.projectTitle,
+      required this.tech1,
+      required this.tech2,
+      required this.tech3,
+      required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -65,6 +66,7 @@ class FeatureProject extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 16.0),
                           child: CustomText(
                             text: projectDesc,
+
                             textsize: 16.0,
                             color: Colors.white.withOpacity(0.4),
                             letterSpacing: 0.75,
@@ -88,7 +90,7 @@ class FeatureProject extends StatelessWidget {
                       alignment: WrapAlignment.end,
                       children: [
                         CustomText(
-                          text: projectTitle,
+                          text:projectTitle ,
                           textsize: 27,
                           color: Colors.grey,
                           fontWeight: FontWeight.w700,
@@ -153,7 +155,7 @@ class FeatureProject extends StatelessWidget {
                         IconButton(
                           icon: FaIcon(FontAwesomeIcons.github),
                           color: Colors.white.withOpacity(0.3),
-                          onPressed: ontab,
+                          onPressed: onTap,
                         ),
                       ],
                     ),
